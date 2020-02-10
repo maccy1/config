@@ -3,8 +3,12 @@ spring:
   application:
     name: item-service
     
-#server:
-#  port: 8001
+  cloud:
+    config:
+      override-none: true
+    
+server:
+  port: 8001
   
 eureka:
   client:
