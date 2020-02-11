@@ -34,13 +34,13 @@ ribbon:
   MaxAutoRetriesNextServer: 1
   MaxAutoRetries: 1
   
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 500
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 500
 
 
 management:
